@@ -13,7 +13,7 @@ import { Textarea } from './ui/textarea';
 import { Progress } from './ui/progress';
 import { BarChart, Bar, LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts';
 import TeamLeaderboard from './TeamLeaderboard';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface PerformanceIntelligenceCenterProps {
   onNavigate: (route: string) => void;
@@ -915,3 +915,4 @@ export default function PerformanceIntelligenceCenter({ onNavigate }: Performanc
     </div>
   );
 }
+

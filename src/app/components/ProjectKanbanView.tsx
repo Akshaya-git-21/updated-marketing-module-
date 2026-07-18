@@ -12,7 +12,7 @@ import { Textarea } from './ui/textarea';
 import { Alert, AlertDescription } from './ui/alert';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import QCChecklistSection from './QCChecklistSection';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Milestone {
   Milestone_ID: string;
@@ -1159,3 +1159,4 @@ function AddTaskForm({ onClose, milestones }: { onClose: () => void; milestones:
     </div>
   );
 }
+

@@ -13,7 +13,7 @@ import { Textarea } from './ui/textarea';
 import { Switch } from './ui/switch';
 import { Alert, AlertDescription } from './ui/alert';
 import CompetitorDetailsView from './CompetitorDetailsView';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Competitor {
   Competitor_ID: string;
@@ -1830,3 +1830,4 @@ function ServiceMappingForm({ onClose }: { onClose: () => void }) {
     </div>
   );
 }
+

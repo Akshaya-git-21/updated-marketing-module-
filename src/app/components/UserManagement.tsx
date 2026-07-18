@@ -13,7 +13,7 @@ import { Checkbox } from './ui/checkbox';
 import { Textarea } from './ui/textarea';
 import { Switch } from './ui/switch';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogFooter } from './ui/dialog';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 // Role configuration with colors
 const ROLE_CONFIG = {
@@ -872,3 +872,4 @@ export default function UserManagement() {
     </div>
   );
 }
+

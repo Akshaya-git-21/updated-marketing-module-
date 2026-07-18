@@ -13,7 +13,7 @@ import { Input } from './ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface QCChecklistItem {
   QC_Task_ID: string;
@@ -743,3 +743,4 @@ export default function QCChecklistSection({ taskId, assetType }: QCChecklistSec
     </div>
   );
 }
+

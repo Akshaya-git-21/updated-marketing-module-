@@ -10,7 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
 import { Textarea } from './ui/textarea';
 import { Alert, AlertDescription } from './ui/alert';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Asset {
   Asset_ID: string;
@@ -662,3 +662,4 @@ function VersionHistoryView({ versions }: { versions: AssetVersion[] }) {
     </div>
   );
 }
+

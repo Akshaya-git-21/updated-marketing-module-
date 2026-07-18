@@ -15,7 +15,7 @@ import { Progress } from './ui/progress';
 import { Slider } from './ui/slider';
 import { Switch } from './ui/switch';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogFooter } from './ui/dialog';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import React from 'react';
 
 interface KeyResult {

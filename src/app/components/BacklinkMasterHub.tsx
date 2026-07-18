@@ -15,7 +15,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { Checkbox } from './ui/checkbox';
 import { Textarea } from './ui/textarea';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface BacklinkMaster {
   Backlink_ID: string;
@@ -918,3 +918,4 @@ export default function BacklinkMasterHub() {
     </div>
   );
 }
+

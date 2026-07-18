@@ -20,7 +20,7 @@ import { Progress } from './ui/progress';
 import { Slider } from './ui/slider';
 import { Alert, AlertDescription } from './ui/alert';
 import { ScrollArea } from './ui/scroll-area';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface SEOEntry {
   SEO_ID: string;
@@ -2026,3 +2026,4 @@ function QCEvaluationForm({
     </div>
   );
 }
+

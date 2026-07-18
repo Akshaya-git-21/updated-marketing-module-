@@ -10,7 +10,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Label } from './ui/label';
 import { Textarea } from './ui/textarea';
 import { Alert, AlertDescription } from './ui/alert';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface TrainingTicket {
   Ticket_ID: string;
@@ -570,3 +570,4 @@ function TrainingTicketDetail({ ticket, onClose }: { ticket: TrainingTicket; onC
     </div>
   );
 }
+

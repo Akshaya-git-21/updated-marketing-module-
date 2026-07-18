@@ -14,7 +14,7 @@ import { Label } from './ui/label';
 import { Textarea } from './ui/textarea';
 import { Alert, AlertDescription } from './ui/alert';
 import { Checkbox } from './ui/checkbox';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import {
   BarChart,
   Bar,
@@ -611,3 +611,4 @@ export default function SEOEffortDashboard() {
     </div>
   );
 }
+
